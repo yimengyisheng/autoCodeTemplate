@@ -1,0 +1,25 @@
+{
+    "name": "weims/generator",
+    "description": "Automatically complete resource api code",
+    "type": "l",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weims",
+            "email": "isweims@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "generatorCurd\\": "src/"
+        }
+    }
+
+}
